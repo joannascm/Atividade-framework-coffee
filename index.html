@@ -156,24 +156,75 @@
     <section id="menu" class="container mt-5 mb-5">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-            type="buttton" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+          <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee-tab-pane"
+            type="buttton" role="tab" aria-controls="coffee-tab-pane" aria-selected="true">Cafés</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+          <button class="nav-link" id="drink-tab" data-bs-toggle="tab" data-bs-target="#drink-tab-pane" type="button"
+            role="tab" aria-controls="drink-tab-pane" aria-selected="false">Bebidas</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-            type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+          <button class="nav-link" id="savorysnack-tab" data-bs-toggle="tab" data-bs-target="#savorysnack-tab-pane"
+            type="button" role="tab" aria-controls="savorysnack-tab-pane" aria-selected="false">Salgados</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="candy-tab" data-bs-toggle="tab" data-bs-target="#candy-tab-pane" type="button"
+            role="tab" aria-controls="candy-tab-pane" aria-selected="false">Doces</button>
         </li>
       </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-          tabindex="0">...</div>
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...
+      <div class="tab-content" id="CoffeeTabContent">
+        <div class="tab-pane fade show active" id="coffee-tab-pane" role="tabpanel" aria-labelledby="coffee-tab"
+          tabindex="0">
+          <!--Cofee cards-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café expresso">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1466337105551-aa3ab7890939?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1606462531350-cca83055044c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Caffè latte</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1604298458655-ae6e04213678?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Macchiato</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...
+        <div class="tab-pane fade" id="drink-tab-pane" role="tabpanel" aria-labelledby="drink-tab"
+          tabindex="0">
+          Bebidas
+        </div>
+        <div class="tab-pane fade" id="savorysnack-tab-pane" role="tabpanel" aria-labelledby="savorysnack-tab"
+          tabindex="0">
+          Salgados
+        </div>
+        <div class="tab-pane fade" id="candy-tab-pane" role="tabpanel" aria-labelledby="candy-tab" tabindex="0">
+          Doces
         </div>
       </div>
     </section>
