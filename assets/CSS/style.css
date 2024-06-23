@@ -1,3 +1,14 @@
+:root {
+  --bs-link-color: #198754;
+  --bs-link-hover-color: #146c43;
+  --modal-bg: #198754;
+}
+.btn{
+  --bs-btn-bg:#198754;
+  --bs-btn-border-color: #146c43;
+  --bs-btn-hover-bg:#146c43;
+  --bs-btn-hover-border-color:#146c43;
+}
 .navbar-brand img  {
     width: 70px;
  } 
@@ -5,6 +16,11 @@
  main{
   margin-top: 6rem;
  }
+
+ section{
+  scroll-margin-top: 8rem;
+ }
+
 .carousel-item {
     height: 500px;
   } 
