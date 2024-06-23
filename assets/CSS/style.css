@@ -27,3 +27,8 @@
   height: 100%;
   object-fit:cover;
 }
+
+.card-menu img{
+  height: 300px;
+  object-fit:cover;
+}
